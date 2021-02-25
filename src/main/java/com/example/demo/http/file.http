@@ -1,0 +1,11 @@
+POST http://localhost:8088/file/
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="CDC.docx"
+
+< ./CDC.docx
+
+
+
+###
